@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+# IAM
+
 - IAM = Identity and Access Management.
 - Root account is created by default.
 - Users can be grouped.

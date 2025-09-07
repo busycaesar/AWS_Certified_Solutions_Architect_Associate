@@ -2,6 +2,8 @@
 sidebar_position: 4
 ---
 
+# Amazon EC2
+
 - Mainly consists the capability of:
   - Renting virtual machines (EC2)
   - String data in virtual drives (EBS)
