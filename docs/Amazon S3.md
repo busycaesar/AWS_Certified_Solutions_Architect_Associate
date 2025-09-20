@@ -152,3 +152,11 @@ sidebar_position: 19
 ### Encryption in Transit
 - Encryption in flight is called SSL/TLS.
 - To force encryption in transit, setup the AWS policy.
+## CORS
+- You can allow for a specific origin or for all origins using \*.
+## MFA Delete
+- MFA will be required to:
+	- Permanently delete an object version.
+	- Suspend versioning on the bucket.
+- Versioning must be enabled.
+- Only bucket owner (root account) can be enable/disable.
