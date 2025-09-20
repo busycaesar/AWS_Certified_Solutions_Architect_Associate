@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "c5b962d8daf3e622",
+    "id": "407c26515a588604",
     "type": "split",
     "children": [
       {
-        "id": "1b411e084007764b",
+        "id": "493df895c99f4c9c",
         "type": "tabs",
         "children": [
           {
-            "id": "4b7204905a5af0c9",
+            "id": "7f8b31f4b3de2b09",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Amazon S3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Amazon S3"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "fb7a4930cefe4f25",
+    "id": "6b98a73f77f307d7",
     "type": "split",
     "children": [
       {
-        "id": "44b9908577e673e5",
+        "id": "38fcfb581e8fde0d",
         "type": "tabs",
         "children": [
           {
-            "id": "677df81264658f3d",
+            "id": "35b691e1e7725b7c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "71235b63bed86f0a",
+            "id": "6f19ae79c77b303f",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "b3ab742c95cd4002",
+            "id": "48c7260436fd7f2f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "effd819da9c92f8c",
+    "id": "cc4ad4abc0e3adf7",
     "type": "split",
     "children": [
       {
-        "id": "dba27a79a41da368",
+        "id": "90bfc6a6affb00b0",
         "type": "tabs",
         "children": [
           {
-            "id": "932ad0ccd9a8d113",
+            "id": "13aa989d258190ea",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for IAM"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "e3610239c7fb807e",
+            "id": "da86e37f46dadd8c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from IAM"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "81a6d6ca037ac3ee",
+            "id": "889bed651385a462",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +131,17 @@
             }
           },
           {
-            "id": "039b4cf7793b20a5",
+            "id": "324e5976d5ec7207",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "IAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of IAM"
+              "title": "Outline"
             }
           }
         ]
@@ -169,41 +162,6 @@
       "bases:Create new base": false
     }
   },
-  "active": "677df81264658f3d",
-  "lastOpenFiles": [
-    "assets/Pasted image 20250920151620.png",
-    "assets/Pasted image 20250920151457.png",
-    "assets/Pasted image 20250920151115.png",
-    "assets/Pasted image 20250920150955.png",
-    "assets/Pasted image 20250920150924.png",
-    "assets/Pasted image 20250920145601.png",
-    "assets/Pasted image 20250920122633.png",
-    "Elastic Beanstalk.md",
-    "Amazon S3.md",
-    "assets/Pasted image 20250920114222.png",
-    "Solutions Architect.md",
-    "Amazon Route 53.md",
-    "assets/Pasted image 20250920084423.png",
-    "assets/Pasted image 20250920083405.png",
-    "assets/Pasted image 20250920083159.png",
-    "Ports.md",
-    "Amazon ElastiCache.md",
-    "Amazon RDS.md",
-    "RDS and Aurora.md",
-    "Amazon Aurora.md",
-    "Auto Scaling Group.md",
-    "Elastic Load Balancer.md",
-    "SSL - TLS.md",
-    "IAM.md",
-    "intro.md",
-    "EFS.md",
-    "EBS Volume.md",
-    "Amazon EC2.md",
-    "AMI.md",
-    "Untitled",
-    "IP.md",
-    "assets",
-    "AWS CLI.md",
-    "Welcome.md"
-  ]
+  "active": "7f8b31f4b3de2b09",
+  "lastOpenFiles": []
 }
