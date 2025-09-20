@@ -39,7 +39,7 @@ sidebar_position: 19
 - Actions
 - Principal
 
-![](Pasted%20image%2020250920122633.png)
+![](./assets/Pasted%20image%2020250920122633.png)
 
 ## Versioning
 
@@ -81,7 +81,7 @@ sidebar_position: 19
 
 ## Requester Pays
 
-![](Pasted%20image%2020250920145601.png)
+![](./assets/Pasted%20image%2020250920145601.png)
 
 ## S3 Event Notifications
 
@@ -102,15 +102,15 @@ sidebar_position: 19
 
 ### Multi-Part Upload
 
-![](Pasted%20image%2020250920150924.png)
+![](./assets/Pasted%20image%2020250920150924.png)
 
 ### S3 Transfer Acceleration
 
-![](Pasted%20image%2020250920150955.png)
+![](./assets/Pasted%20image%2020250920150955.png)
 
 ### S3 Byte-Range Fetches
 
-![](Pasted%20image%2020250920151115.png)
+![](./assets/Pasted%20image%2020250920151115.png)
 
 ## S3 Batch Operation
 
@@ -119,11 +119,11 @@ sidebar_position: 19
 - Manages retries, tracks progress, sends completion notifications, generate reports, etc.
 - Use S3 inventory to get object list and use Athena to query and filter your objects.
 
-![](Pasted%20image%2020250920151457.png)
+![](./assets/Pasted%20image%2020250920151457.png)
 
 ## Storage Lens
 
-![](Pasted%20image%2020250920151620.png)
+![](./assets/Pasted%20image%2020250920151620.png)
 
 ### Metrics
 

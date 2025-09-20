@@ -15,7 +15,7 @@ sidebar_position: 13
 
 ## Custom Endpoints
 
-![](Pasted%20image%2020250916063317.png)
+![](./assets/Pasted%20image%2020250916063317.png)
 
 ## Aurora Serverless
 

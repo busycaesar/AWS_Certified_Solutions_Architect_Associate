@@ -16,4 +16,4 @@ sidebar_position: 18
 
 ### Web Server Env Tier & Worker Env Tier.
 
-![](Pasted%20image%2020250920114222.png)
+![](./assets/Pasted%20image%2020250920114222.png)
