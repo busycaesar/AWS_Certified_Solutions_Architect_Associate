@@ -135,3 +135,20 @@ sidebar_position: 19
 - Performance Metrics
 - Activity Metrics
 - Detailed Statue Code Metrics
+## Object Encryption
+### Server-Side Encryption
+#### Amazon S3-Managed Keys
+- Header `"x-amz-server-side-encryption": "AWS256"`
+- Enabled by default.
+#### KMS Keys stored in AWS KMS.
+- Header `"x-amz-server-side-encryption": "aws:kms"`.
+- It calls KMS API when you upload/download the object.
+#### Customer-Provided Keys
+- HTTPS must be used.
+- Encryption key must be provided in the HTTP headers for every request made.
+- Amazon S3 does not store the keys.
+### Client-Side Encryption
+- Libraries: Amazon S3 Client-Side Encryption Library.
+### Encryption in Transit
+- Encryption in flight is called SSL/TLS.
+- To force encryption in transit, setup the AWS policy.
