@@ -37,11 +37,11 @@ sidebar_position: 12
 - Not for scaling
 - Read replicas can be setup as Multi AZ for disaster recovery.
 
-![disaster-recovery](Pasted%20image%2020250915064825.png)
+![disaster-recovery](./assets/Pasted%20image%2020250915064825.png)
 
 ## Single AZ to Multi AZ
 
-![singleaz-multiaz](Pasted%20image%2020250915065009.png)
+![singleaz-multiaz](./assets/Pasted%20image%2020250915065009.png)
 
 ## RDS Custom
 
