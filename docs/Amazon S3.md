@@ -160,3 +160,11 @@ sidebar_position: 19
 	- Suspend versioning on the bucket.
 - Versioning must be enabled.
 - Only bucket owner (root account) can be enable/disable.
+## Access Logs
+- Any request made to S3 bucket will be logged into another S3 bucket.
+- The data can be analyzed using data analysis tools.
+- The logging bucket should be in the same region.
+## Pre-Signed URLs
+- Users given a pre-signed URL inherit the permissions of the user who generated the URL for GET / PUT.
+
+![](Pasted%20image%2020250924071635.png)
