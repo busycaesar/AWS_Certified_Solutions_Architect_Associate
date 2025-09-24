@@ -135,36 +135,56 @@ sidebar_position: 19
 - Performance Metrics
 - Activity Metrics
 - Detailed Statue Code Metrics
+
 ## Object Encryption
+
 ### Server-Side Encryption
+
 #### Amazon S3-Managed Keys
+
 - Header `"x-amz-server-side-encryption": "AWS256"`
 - Enabled by default.
+
 #### KMS Keys stored in AWS KMS.
+
 - Header `"x-amz-server-side-encryption": "aws:kms"`.
 - It calls KMS API when you upload/download the object.
+
 #### Customer-Provided Keys
+
 - HTTPS must be used.
 - Encryption key must be provided in the HTTP headers for every request made.
 - Amazon S3 does not store the keys.
+
 ### Client-Side Encryption
+
 - Libraries: Amazon S3 Client-Side Encryption Library.
+
 ### Encryption in Transit
+
 - Encryption in flight is called SSL/TLS.
 - To force encryption in transit, setup the AWS policy.
+
 ## CORS
+
 - You can allow for a specific origin or for all origins using \*.
+
 ## MFA Delete
+
 - MFA will be required to:
-	- Permanently delete an object version.
-	- Suspend versioning on the bucket.
+  - Permanently delete an object version.
+  - Suspend versioning on the bucket.
 - Versioning must be enabled.
 - Only bucket owner (root account) can be enable/disable.
+
 ## Access Logs
+
 - Any request made to S3 bucket will be logged into another S3 bucket.
 - The data can be analyzed using data analysis tools.
 - The logging bucket should be in the same region.
+
 ## Pre-Signed URLs
+
 - Users given a pre-signed URL inherit the permissions of the user who generated the URL for GET / PUT.
 
-![](Pasted%20image%2020250924071635.png)
+![](./assets/Pasted%20image%2020250924071635.png)
