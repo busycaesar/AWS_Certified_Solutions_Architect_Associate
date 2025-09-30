@@ -188,3 +188,24 @@ sidebar_position: 19
 - Users given a pre-signed URL inherit the permissions of the user who generated the URL for GET / PUT.
 
 ![](./assets/Pasted%20image%2020250924071635.png)
+## S3 Glacier Vault Lock
+- Write Once Read Many (WORM)
+	- Create a vault lock policy so it cannot be changed or deleted.
+### Versioning
+- Block an object version deletion for a specified amount of time.
+- Retention mode - Compliance: Object level
+- Retention mode - Governance: User level
+- Retention period: Fixed period
+- Legal Hold
+## Access Points
+
+![](./assets/Pasted%20image%2020250925064046.png)
+### VPC Origin
+- Access point only accessible from within VPC.
+- Create a VPC Endpoint to access the Access Point.
+- VPC Endpoint must allow access to the target bucket and Access Point.
+
+![](./assets/Pasted%20image%2020250925064448.png)
+## S3 Object Lambda
+
+![](./assets/Pasted%20image%2020250925064826.png)
