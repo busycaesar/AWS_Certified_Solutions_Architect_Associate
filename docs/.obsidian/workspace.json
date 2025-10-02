@@ -171,6 +171,9 @@
   },
   "active": "4b7204905a5af0c9",
   "lastOpenFiles": [
+    "assets/Pasted image 20250930205513.png",
+    "assets/Pasted image 20250930205201.png",
+    "assets/Pasted image 20250930204841.png",
     "AWS Storage Comparison.md",
     "Kinesis Data Streams vs Amazon Data Firehose.md",
     "Amazon Data Firehose.md",
@@ -186,10 +189,8 @@
     "assets/Pasted image 20251001072805.png",
     "assets/Pasted image 20251001065306.png",
     "assets/Pasted image 20251001064853.png",
-    "assets/Pasted image 20251001062348.png",
     "Introduction to Messaging.md",
     "AWS DataSync.md",
-    "assets/Pasted image 20251001061351.png",
     "AWS Transfer Family.md",
     "AWS Storage Gateway.md",
     "Amazon FSx.md",
@@ -206,7 +207,6 @@
     "Amazon RDS.md",
     "RDS and Aurora.md",
     "Amazon Aurora.md",
-    "Auto Scaling Group.md",
     "Untitled",
     "assets"
   ]
