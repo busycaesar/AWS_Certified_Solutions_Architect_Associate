@@ -21,5 +21,3 @@ sidebar_position: 26
 ![](./assets/Pasted%20image%2020250930205201.png)
 
 ## Tape Gateway
-
-![](/assets/Pasted%20image%2020250930205513.png)
