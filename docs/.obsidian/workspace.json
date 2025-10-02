@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amazon FSx.md",
+                "file": "Kinesis Data Streams vs Amazon Data Firehose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon FSx"
+              "title": "Kinesis Data Streams vs Amazon Data Firehose"
             }
           }
         ]
@@ -169,25 +169,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "677df81264658f3d",
+  "active": "4b7204905a5af0c9",
   "lastOpenFiles": [
-    "assets/Pasted image 20250930070958.png",
-    "AWS Snowball.md",
+    "Amazon Data Firehose.md",
+    "Kinesis Data Streams vs Amazon Data Firehose.md",
+    "assets/Pasted image 20251001202816.png",
+    "Amazon Kinesis Data Streams.md",
+    "assets/Pasted image 20251001195431.png",
+    "SNS + SQS.md",
+    "Amazon SNS.md",
+    "assets/Pasted image 20251001084301.png",
+    "assets/Pasted image 20251001082330.png",
+    "Amazon SQS.md",
+    "AWS Storage Comparison.md",
+    "assets/Pasted image 20251001081024.png",
+    "assets/Pasted image 20251001072805.png",
+    "assets/Pasted image 20251001065306.png",
+    "assets/Pasted image 20251001064853.png",
+    "assets/Pasted image 20251001062348.png",
+    "Introduction to Messaging.md",
+    "AWS DataSync.md",
+    "assets/Pasted image 20251001061351.png",
+    "AWS Transfer Family.md",
+    "AWS Storage Gateway.md",
     "Amazon FSx.md",
-    "assets/Pasted image 20250930064545.png",
+    "AWS Snowball.md",
     "AWS Global Accelerator vs CloudFront.md",
     "AWS Global Accelerator.md",
     "AWS CloudFront.md",
-    "assets/Pasted image 20250925070852.png",
     "Amazon S3.md",
-    "assets/Pasted image 20250925064826.png",
-    "assets/Pasted image 20250925064448.png",
-    "assets/Pasted image 20250925064046.png",
-    "assets/Pasted image 20250924071635.png",
-    "assets/Pasted image 20250920151620.png",
-    "assets/Pasted image 20250920151457.png",
-    "assets/Pasted image 20250920151115.png",
-    "assets/Pasted image 20250920150955.png",
     "Elastic Beanstalk.md",
     "Solutions Architect.md",
     "Amazon Route 53.md",
@@ -197,17 +207,7 @@
     "RDS and Aurora.md",
     "Amazon Aurora.md",
     "Auto Scaling Group.md",
-    "Elastic Load Balancer.md",
-    "SSL - TLS.md",
-    "IAM.md",
-    "intro.md",
-    "EFS.md",
-    "EBS Volume.md",
-    "Amazon EC2.md",
-    "AMI.md",
     "Untitled",
-    "IP.md",
-    "assets",
-    "AWS CLI.md"
+    "assets"
   ]
 }
