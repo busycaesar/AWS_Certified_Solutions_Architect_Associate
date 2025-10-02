@@ -11,7 +11,7 @@ sidebar_position: 13
 
 ## Aurora DB Cluster
 
-![aurora-db-cluster](./assets/Pasted%20image%2020250916062320.png)
+![aurora-db-cluster](../assets/Pasted%20image%2020250916062320.png)
 
 ## Custom Endpoints
 
@@ -31,11 +31,11 @@ sidebar_position: 13
 
 ## Aurora Machine Learning
 
-![aurora machine learning](./assets/Pasted%20image%2020250916064000.png)
+![aurora machine learning](../assets/Pasted%20image%2020250916064000.png)
 
 ## Babelfist for Aurora PostgreSQL
 
-![babelfish](./assets/Pasted%20image%2020250916064222.png)
+![babelfish](../assets/Pasted%20image%2020250916064222.png)
 
 ## Aurora Backups
 

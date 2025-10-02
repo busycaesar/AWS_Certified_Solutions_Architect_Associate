@@ -14,7 +14,7 @@ sidebar_position: 9
 
 ## Load Balancer Security Groups
 
-![lb-security-groups](./assets/Pasted%20image%2020250914123424.png)
+![lb-security-groups](../assets/Pasted%20image%2020250914123424.png)
 
 ## Application Load Balancer
 
@@ -48,7 +48,7 @@ sidebar_position: 9
 
 - Operates at level 3 (Network Layer)
 
-![gateway-load-balancer](./assets/Pasted%20image%2020250914144247.png)
+![gateway-load-balancer](../assets/Pasted%20image%2020250914144247.png)
 
 ### Target Groups
 
@@ -78,14 +78,14 @@ sidebar_position: 9
 
 ## Cross-Zone Load Balancing
 
-![cross-zone-load-balancing](./assets/Pasted%20image%2020250914150215.png)
+![cross-zone-load-balancing](../assets/Pasted%20image%2020250914150215.png)
 
 - For Application Load Balancer: Enabled be default; can be disabled at Target Group Leve; no charges.
 - For Network Load Balancer and Gateway Load Balancer: Disabled be default; extra charges.
 
 ## SSL Certificates
 
-![ssl-certificates](./assets/Pasted%20image%2020250914151158.png)
+![ssl-certificates](../assets/Pasted%20image%2020250914151158.png)
 
 - Manage certificates using AWS Certificate Manager.
 - Alternatively, upload your own certificate.
@@ -95,7 +95,7 @@ sidebar_position: 9
 - Solves the issue of loading multiple SSL certificates to serve multiple websites.
 - Requires client to indicate the hostname of the target server in the initial SSL handshake.
 
-![server-name-indication](./assets/Pasted%20image%2020250914151655.png)
+![server-name-indication](../assets/Pasted%20image%2020250914151655.png)
 
 ## Deregistration Delay
 

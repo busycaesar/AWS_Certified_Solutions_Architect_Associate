@@ -74,7 +74,7 @@ sidebar_position: 4
 - Define **max spot price**, get instance while **current spot price < max**.
 - If spot prices > max, choose to stop or terminate the instance with 2 min grace period.
 
-![Spot Instance](./assets/spot-instances.png)
+![Spot Instance](../assets/spot-instances.png)
 
 ### Spot Fleets
 
@@ -88,21 +88,21 @@ sidebar_position: 4
 
 ## Cluster
 
-![cluster-placement-groups](./assets/Pasted%20image%2020250914072040.png)
+![cluster-placement-groups](../assets/Pasted%20image%2020250914072040.png)
 
 - Pros: Great Network
 - Cons: If AZ fails, all instances fails.
 
 ### Spread
 
-![spread-placement-group](./assets/Pasted%20image%2020250914072211.png)
+![spread-placement-group](../assets/Pasted%20image%2020250914072211.png)
 
 - Pros: Reduced risk of simultaneous failure, instances on different physical hardware.
 - Cons: Limited to 7 instances / AZ / placement group.
 
 ### Partition
 
-![partition-placement-group](./assets/Pasted%20image%2020250914072530.png)
+![partition-placement-group](../assets/Pasted%20image%2020250914072530.png)
 
 - Upto 7 partitions / AZ.
 - Mutiple AZs in the same region.
@@ -126,7 +126,7 @@ sidebar_position: 4
 - Root EBS volume must be encrypted.
 - Instance cannot be hibernate for more than 60 days.
 
-![ec2-hibernate](./assets/Pasted%20image%2020250914074226.png)
+![ec2-hibernate](../assets/Pasted%20image%2020250914074226.png)
 
 ## EC2 Instance Store
 
