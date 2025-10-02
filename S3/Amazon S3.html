@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-S3/Amazon S3" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.7.0">
+<title data-rh="true">Amazon S3 | AWS Certified Solutions Architect - Associate</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://busycaesar.github.io/S3/Amazon S3"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Amazon S3 | AWS Certified Solutions Architect - Associate"><meta data-rh="true" name="description" content="- Allow people to store objects (files) in buckets (directories)."><meta data-rh="true" property="og:description" content="- Allow people to store objects (files) in buckets (directories)."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://busycaesar.github.io/S3/Amazon S3"><link data-rh="true" rel="alternate" href="https://busycaesar.github.io/S3/Amazon S3" hreflang="en"><link data-rh="true" rel="alternate" href="https://busycaesar.github.io/S3/Amazon S3" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.76118980.css">
+<script src="/assets/js/runtime~main.9d55385e.js" defer="defer"></script>
+<script src="/assets/js/main.8aac072c.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><link rel="preload" as="image" href="/img/logo.svg"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">AWS Certified Solutions Architect - Associate</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/">Learn</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/busycaesar/AWS_Certified_Solutions_Architect_Associate" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite" aria-pressed="false"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">Welcome</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/iam-and-aws-cli">IAM and AWS CLI</a><button aria-label="Expand sidebar category &#x27;IAM and AWS CLI&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/ec2">EC2</a><button aria-label="Expand sidebar category &#x27;EC2&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/high-availability-and-scalability">High Availability and Scalability</a><button aria-label="Expand sidebar category &#x27;High Availability and Scalability&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/database">Database</a><button aria-label="Expand sidebar category &#x27;Database&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/route-53">Route 53</a><button aria-label="Expand sidebar category &#x27;Route 53&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/category/s3">S3</a><button aria-label="Collapse sidebar category &#x27;S3&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/S3/Amazon S3">Amazon S3</a></li></ul></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/cloudfront-and-aws-global-accelerator">CloudFront and AWS Global Accelerator</a><button aria-label="Expand sidebar category &#x27;CloudFront and AWS Global Accelerator&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/storage-extras">Storage Extras</a><button aria-label="Expand sidebar category &#x27;Storage Extras&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/decoupling-applications">Decoupling Applications</a><button aria-label="Expand sidebar category &#x27;Decoupling Applications&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/containers">Containers</a><button aria-label="Expand sidebar category &#x27;Containers&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/category/serverless">Serverless</a><button aria-label="Expand sidebar category &#x27;Serverless&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/Ports">Ports</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/Solutions Architect">Solutions Architect</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/Elastic Beanstalk">Elastic Beanstalk</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/category/s3"><span itemprop="name">S3</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Amazon S3</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Amazon S3</h1></header><ul>
+<li>
+<p>Allow people to store objects (files) in buckets (directories).</p>
+</li>
+<li>
+<p>Globally unique name; defined at region level.</p>
+</li>
+<li>
+<p>Objects have a key.</p>
+</li>
+<li>
+<p>The key is full path (prefix + object name) to the object.</p>
+</li>
+<li>
+<p>Max object size is 5 TB.</p>
+</li>
+<li>
+<p>If uploading &gt; 5 GB, must use &quot;multi-part upload&quot;</p>
+</li>
+<li>
+<p>Metadata</p>
+</li>
+<li>
+<p>Tags</p>
+</li>
+<li>
+<p>Version Id (if enabled)</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="security">Security<a href="#security" class="hash-link" aria-label="Direct link to Security" title="Direct link to Security">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="user-based">User-Based<a href="#user-based" class="hash-link" aria-label="Direct link to User-Based" title="Direct link to User-Based">​</a></h3>
+<ul>
+<li>IAM Policies</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="resource-based">Resource-Based<a href="#resource-based" class="hash-link" aria-label="Direct link to Resource-Based" title="Direct link to Resource-Based">​</a></h3>
+<ul>
+<li>
+<p>Bucket Policies</p>
+</li>
+<li>
+<p>Object Access Control List</p>
+</li>
+<li>
+<p>Bucket Access Control List</p>
+</li>
+<li>
+<p>IAM Principal can access S3 object if,</p>
+<ul>
+<li>IAM permission allows it OR the resource policy allows it.</li>
+<li>AND there is no explicit DENY.</li>
+</ul>
+</li>
+<li>
+<p>Encrypt objects using encryption keys.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-bucket-policies">S3 Bucket Policies<a href="#s3-bucket-policies" class="hash-link" aria-label="Direct link to S3 Bucket Policies" title="Direct link to S3 Bucket Policies">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="json-based-policies">JSON based policies<a href="#json-based-policies" class="hash-link" aria-label="Direct link to JSON based policies" title="Direct link to JSON based policies">​</a></h3>
+<ul>
+<li>Resources</li>
+<li>Effect</li>
+<li>Actions</li>
+<li>Principal</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920122633-c5ddf16ee8e9f85717406fa1ba11b790.png" width="721" height="615" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="versioning">Versioning<a href="#versioning" class="hash-link" aria-label="Direct link to Versioning" title="Direct link to Versioning">​</a></h2>
+<ul>
+<li>Enabled at bucket level</li>
+<li>If file is not versioned before enabling versioning, it will have version &quot;null&quot;.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="replication">Replication<a href="#replication" class="hash-link" aria-label="Direct link to Replication" title="Direct link to Replication">​</a></h2>
+<ul>
+<li>Must enabled versioning</li>
+<li>Cross Region Replication</li>
+<li>Same Region Replication</li>
+<li>Buckets can be in different accounts.</li>
+<li>Must give proper IAM permissions to S3.</li>
+<li>After enabling replication. only new objects are replicated.</li>
+<li>Existing objects can be replicated using S3 Batch Replication.</li>
+<li>There is no chaining of replication.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-durability-and-availability">S3 Durability and Availability<a href="#s3-durability-and-availability" class="hash-link" aria-label="Direct link to S3 Durability and Availability" title="Direct link to S3 Durability and Availability">​</a></h2>
+<ul>
+<li>Durability: 99.999999999% (11 9s)</li>
+<li>Availability: 99.99% (not available 53 minutes a year)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-storage-classes">S3 Storage Classes<a href="#s3-storage-classes" class="hash-link" aria-label="Direct link to S3 Storage Classes" title="Direct link to S3 Storage Classes">​</a></h2>
+<ul>
+<li>Amazon S3 Standard - General Purpose: For frequently accessed data</li>
+<li>Amazon S3 Standard - Infrequent Access: For less frequently accessed data; but requires rapid access.</li>
+<li>Amazon S3 One Zone - Infrequent Access: High durability in single AZ; data is lost when AZ is destroyed.</li>
+<li>Amazon S3 Glacier Instance Retrieval: For data accessed once a quarter; 90 days storage duration</li>
+<li>Amazon S3 Glacier Flexible Retrieval: 1 to 5 mins to 5 to 12 hours; 90 days storage duration</li>
+<li>Amazon S3 Glacier Deep Archive: 12 to 48 hours, 180 days storage duration.</li>
+<li>Amazon S3 Intelligent Tiering: Automatically moves object between Access Tiers based on usage.</li>
+<li>S3 Express One Zone: High performance, single AZ.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="lifecycle-rules">Lifecycle Rules<a href="#lifecycle-rules" class="hash-link" aria-label="Direct link to Lifecycle Rules" title="Direct link to Lifecycle Rules">​</a></h2>
+<ul>
+<li>Transition Actions: Configure objects to transition to another storage class.</li>
+<li>Expiration Actions: Configure objects to delete after some time.</li>
+<li>Rules can be attached to a certain prefix or object tags.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="requester-pays">Requester Pays<a href="#requester-pays" class="hash-link" aria-label="Direct link to Requester Pays" title="Direct link to Requester Pays">​</a></h2>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920145601-d58ac9c62d8a541528f427ac3db8bbac.png" width="940" height="691" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-event-notifications">S3 Event Notifications<a href="#s3-event-notifications" class="hash-link" aria-label="Direct link to S3 Event Notifications" title="Direct link to S3 Event Notifications">​</a></h2>
+<ul>
+<li>Object creation, removal, restore, replication.</li>
+<li>Name filtering (*.jpg)</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="amazon-eventbridge">Amazon EventBridge<a href="#amazon-eventbridge" class="hash-link" aria-label="Direct link to Amazon EventBridge" title="Direct link to Amazon EventBridge">​</a></h3>
+<ul>
+<li>Advanced filtering options with JSON rules.</li>
+<li>Multiple Destinations</li>
+<li>EventBridge Capabilities: Archive, Replay Events, etc.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="baseline-performance">Baseline Performance<a href="#baseline-performance" class="hash-link" aria-label="Direct link to Baseline Performance" title="Direct link to Baseline Performance">​</a></h2>
+<ul>
+<li>Automatically scales</li>
+<li>3500 PUT/COPY/POST/DELETE or 5500 GET/HEAD requests per second per prefix in a bucket.</li>
+<li>Prefix = <code>bucket/folder1/sub1/file</code> =&gt; <code>/folder1/sub1</code></li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="multi-part-upload">Multi-Part Upload<a href="#multi-part-upload" class="hash-link" aria-label="Direct link to Multi-Part Upload" title="Direct link to Multi-Part Upload">​</a></h3>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920150924-6c7bc8b2847b41c97f6cd9f5ff67c04d.png" width="672" height="361" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="s3-transfer-acceleration">S3 Transfer Acceleration<a href="#s3-transfer-acceleration" class="hash-link" aria-label="Direct link to S3 Transfer Acceleration" title="Direct link to S3 Transfer Acceleration">​</a></h3>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920150955-79ac4c3158a36c1d293d4c90c0469540.png" width="795" height="240" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="s3-byte-range-fetches">S3 Byte-Range Fetches<a href="#s3-byte-range-fetches" class="hash-link" aria-label="Direct link to S3 Byte-Range Fetches" title="Direct link to S3 Byte-Range Fetches">​</a></h3>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920151115-7b088081ecaa7da96aa062831ea2f8f5.png" width="1655" height="363" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-batch-operation">S3 Batch Operation<a href="#s3-batch-operation" class="hash-link" aria-label="Direct link to S3 Batch Operation" title="Direct link to S3 Batch Operation">​</a></h2>
+<ul>
+<li>Perform bulk operations on existing S3 objects with a single request.</li>
+<li>A job consists of a list of objects, the action to perform and optional parameters.</li>
+<li>Manages retries, tracks progress, sends completion notifications, generate reports, etc.</li>
+<li>Use S3 inventory to get object list and use Athena to query and filter your objects.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920151457-a58ac25a5a2af92b2c8cb732d9d49300.png" width="677" height="902" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="storage-lens">Storage Lens<a href="#storage-lens" class="hash-link" aria-label="Direct link to Storage Lens" title="Direct link to Storage Lens">​</a></h2>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250920151620-89450e3d392f379fc66283cfd784ede7.png" width="1704" height="417" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="metrics">Metrics<a href="#metrics" class="hash-link" aria-label="Direct link to Metrics" title="Direct link to Metrics">​</a></h3>
+<ul>
+<li>Summary Metrics</li>
+<li>Cost-Optimization Metrics</li>
+<li>Data-Protection Metrics</li>
+<li>Access-Management Metrics</li>
+<li>Event Metrics</li>
+<li>Performance Metrics</li>
+<li>Activity Metrics</li>
+<li>Detailed Statue Code Metrics</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="object-encryption">Object Encryption<a href="#object-encryption" class="hash-link" aria-label="Direct link to Object Encryption" title="Direct link to Object Encryption">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="server-side-encryption">Server-Side Encryption<a href="#server-side-encryption" class="hash-link" aria-label="Direct link to Server-Side Encryption" title="Direct link to Server-Side Encryption">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="amazon-s3-managed-keys">Amazon S3-Managed Keys<a href="#amazon-s3-managed-keys" class="hash-link" aria-label="Direct link to Amazon S3-Managed Keys" title="Direct link to Amazon S3-Managed Keys">​</a></h4>
+<ul>
+<li>Header <code>&quot;x-amz-server-side-encryption&quot;: &quot;AWS256&quot;</code></li>
+<li>Enabled by default.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="kms-keys-stored-in-aws-kms">KMS Keys stored in AWS KMS.<a href="#kms-keys-stored-in-aws-kms" class="hash-link" aria-label="Direct link to KMS Keys stored in AWS KMS." title="Direct link to KMS Keys stored in AWS KMS.">​</a></h4>
+<ul>
+<li>Header <code>&quot;x-amz-server-side-encryption&quot;: &quot;aws:kms&quot;</code>.</li>
+<li>It calls KMS API when you upload/download the object.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="customer-provided-keys">Customer-Provided Keys<a href="#customer-provided-keys" class="hash-link" aria-label="Direct link to Customer-Provided Keys" title="Direct link to Customer-Provided Keys">​</a></h4>
+<ul>
+<li>HTTPS must be used.</li>
+<li>Encryption key must be provided in the HTTP headers for every request made.</li>
+<li>Amazon S3 does not store the keys.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="client-side-encryption">Client-Side Encryption<a href="#client-side-encryption" class="hash-link" aria-label="Direct link to Client-Side Encryption" title="Direct link to Client-Side Encryption">​</a></h3>
+<ul>
+<li>Libraries: Amazon S3 Client-Side Encryption Library.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="encryption-in-transit">Encryption in Transit<a href="#encryption-in-transit" class="hash-link" aria-label="Direct link to Encryption in Transit" title="Direct link to Encryption in Transit">​</a></h3>
+<ul>
+<li>Encryption in flight is called SSL/TLS.</li>
+<li>To force encryption in transit, setup the AWS policy.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cors">CORS<a href="#cors" class="hash-link" aria-label="Direct link to CORS" title="Direct link to CORS">​</a></h2>
+<ul>
+<li>You can allow for a specific origin or for all origins using *.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="mfa-delete">MFA Delete<a href="#mfa-delete" class="hash-link" aria-label="Direct link to MFA Delete" title="Direct link to MFA Delete">​</a></h2>
+<ul>
+<li>MFA will be required to:<!-- -->
+<ul>
+<li>Permanently delete an object version.</li>
+<li>Suspend versioning on the bucket.</li>
+</ul>
+</li>
+<li>Versioning must be enabled.</li>
+<li>Only bucket owner (root account) can be enable/disable.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="access-logs">Access Logs<a href="#access-logs" class="hash-link" aria-label="Direct link to Access Logs" title="Direct link to Access Logs">​</a></h2>
+<ul>
+<li>Any request made to S3 bucket will be logged into another S3 bucket.</li>
+<li>The data can be analyzed using data analysis tools.</li>
+<li>The logging bucket should be in the same region.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pre-signed-urls">Pre-Signed URLs<a href="#pre-signed-urls" class="hash-link" aria-label="Direct link to Pre-Signed URLs" title="Direct link to Pre-Signed URLs">​</a></h2>
+<ul>
+<li>Users given a pre-signed URL inherit the permissions of the user who generated the URL for GET / PUT.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250924071635-d731f426d02cbd4d34fd4eaadcdd701d.png" width="388" height="920" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-glacier-vault-lock">S3 Glacier Vault Lock<a href="#s3-glacier-vault-lock" class="hash-link" aria-label="Direct link to S3 Glacier Vault Lock" title="Direct link to S3 Glacier Vault Lock">​</a></h2>
+<ul>
+<li>Write Once Read Many (WORM)<!-- -->
+<ul>
+<li>Create a vault lock policy so it cannot be changed or deleted.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="versioning-1">Versioning<a href="#versioning-1" class="hash-link" aria-label="Direct link to Versioning" title="Direct link to Versioning">​</a></h3>
+<ul>
+<li>Block an object version deletion for a specified amount of time.</li>
+<li>Retention mode - Compliance: Object level</li>
+<li>Retention mode - Governance: User level</li>
+<li>Retention period: Fixed period</li>
+<li>Legal Hold</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="access-points">Access Points<a href="#access-points" class="hash-link" aria-label="Direct link to Access Points" title="Direct link to Access Points">​</a></h2>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250925064046-9557b62428db3a2e01342b41ff4bb256.png" width="1496" height="421" class="img_ev3q"></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vpc-origin">VPC Origin<a href="#vpc-origin" class="hash-link" aria-label="Direct link to VPC Origin" title="Direct link to VPC Origin">​</a></h3>
+<ul>
+<li>Access point only accessible from within VPC.</li>
+<li>Create a VPC Endpoint to access the Access Point.</li>
+<li>VPC Endpoint must allow access to the target bucket and Access Point.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250925064448-2f2fe56aef32d4f28cc38354d69a4da5.png" width="987" height="786" class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="s3-object-lambda">S3 Object Lambda<a href="#s3-object-lambda" class="hash-link" aria-label="Direct link to S3 Object Lambda" title="Direct link to S3 Object Lambda">​</a></h2>
+<p><img decoding="async" loading="lazy" src="/assets/images/Pasted image 20250925064826-10f20bfcc42870a885885830c45dfe24.png" width="1013" height="782" class="img_ev3q"></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/category/s3"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">S3</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/category/cloudfront-and-aws-global-accelerator"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">CloudFront and AWS Global Accelerator</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#security" class="table-of-contents__link toc-highlight">Security</a><ul><li><a href="#user-based" class="table-of-contents__link toc-highlight">User-Based</a></li><li><a href="#resource-based" class="table-of-contents__link toc-highlight">Resource-Based</a></li></ul></li><li><a href="#s3-bucket-policies" class="table-of-contents__link toc-highlight">S3 Bucket Policies</a><ul><li><a href="#json-based-policies" class="table-of-contents__link toc-highlight">JSON based policies</a></li></ul></li><li><a href="#versioning" class="table-of-contents__link toc-highlight">Versioning</a></li><li><a href="#replication" class="table-of-contents__link toc-highlight">Replication</a></li><li><a href="#s3-durability-and-availability" class="table-of-contents__link toc-highlight">S3 Durability and Availability</a></li><li><a href="#s3-storage-classes" class="table-of-contents__link toc-highlight">S3 Storage Classes</a></li><li><a href="#lifecycle-rules" class="table-of-contents__link toc-highlight">Lifecycle Rules</a></li><li><a href="#requester-pays" class="table-of-contents__link toc-highlight">Requester Pays</a></li><li><a href="#s3-event-notifications" class="table-of-contents__link toc-highlight">S3 Event Notifications</a><ul><li><a href="#amazon-eventbridge" class="table-of-contents__link toc-highlight">Amazon EventBridge</a></li></ul></li><li><a href="#baseline-performance" class="table-of-contents__link toc-highlight">Baseline Performance</a><ul><li><a href="#multi-part-upload" class="table-of-contents__link toc-highlight">Multi-Part Upload</a></li><li><a href="#s3-transfer-acceleration" class="table-of-contents__link toc-highlight">S3 Transfer Acceleration</a></li><li><a href="#s3-byte-range-fetches" class="table-of-contents__link toc-highlight">S3 Byte-Range Fetches</a></li></ul></li><li><a href="#s3-batch-operation" class="table-of-contents__link toc-highlight">S3 Batch Operation</a></li><li><a href="#storage-lens" class="table-of-contents__link toc-highlight">Storage Lens</a><ul><li><a href="#metrics" class="table-of-contents__link toc-highlight">Metrics</a></li></ul></li><li><a href="#object-encryption" class="table-of-contents__link toc-highlight">Object Encryption</a><ul><li><a href="#server-side-encryption" class="table-of-contents__link toc-highlight">Server-Side Encryption</a></li><li><a href="#client-side-encryption" class="table-of-contents__link toc-highlight">Client-Side Encryption</a></li><li><a href="#encryption-in-transit" class="table-of-contents__link toc-highlight">Encryption in Transit</a></li></ul></li><li><a href="#cors" class="table-of-contents__link toc-highlight">CORS</a></li><li><a href="#mfa-delete" class="table-of-contents__link toc-highlight">MFA Delete</a></li><li><a href="#access-logs" class="table-of-contents__link toc-highlight">Access Logs</a></li><li><a href="#pre-signed-urls" class="table-of-contents__link toc-highlight">Pre-Signed URLs</a></li><li><a href="#s3-glacier-vault-lock" class="table-of-contents__link toc-highlight">S3 Glacier Vault Lock</a><ul><li><a href="#versioning-1" class="table-of-contents__link toc-highlight">Versioning</a></li></ul></li><li><a href="#access-points" class="table-of-contents__link toc-highlight">Access Points</a><ul><li><a href="#vpc-origin" class="table-of-contents__link toc-highlight">VPC Origin</a></li></ul></li><li><a href="#s3-object-lambda" class="table-of-contents__link toc-highlight">S3 Object Lambda</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://x.com/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">X<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://linkedin.com/in/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">LinkedIn<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://dev.to/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">Blogs<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://youtube.com/@busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">YouTube<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://instagram.com/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">Instagram<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">Support</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://buymeacoffee.com/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">Buy Me a Coffee<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://topmate.io/busycaesar" target="_blank" rel="noopener noreferrer" class="footer__link-item">Topmate<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 shahtech.info. All Rights Reserved.</div></div></div></footer></div>
+</body>
+</html>
