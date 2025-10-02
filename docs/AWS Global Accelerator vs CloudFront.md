@@ -1,6 +1,7 @@
 ---
 sidebar_position: 22
 ---
+
 | CloudFront                                                           | Global Accelerator                                                               |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | Improves performance for both cacheable content and dynamic content. | Improves performance for a wide range of application over TCP or UDP.            |

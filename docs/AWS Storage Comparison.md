@@ -1,6 +1,7 @@
 ---
 sidebar_position: 29
 ---
+
 - S3: Object Storage
 - S3 Glacier : Object Archival
 - EBS volumes: Network storage for one EC2 instance at a time
