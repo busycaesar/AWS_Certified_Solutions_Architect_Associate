@@ -8,7 +8,7 @@ sidebar_position: 40
 - Alternative to ECS.
 - Supports EC2 and Fargate.
 
-![](./assets/Pasted%20image%2020251002072148.png)
+![](../assets/Pasted%20image%2020251002072148.png)
 
 ## Node Types
 
