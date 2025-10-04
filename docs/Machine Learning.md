@@ -33,7 +33,7 @@ sidebar_position: 14
 - Amazon Lex: Automatic Speech Recognition, Natural Language Understanding
 - Amazon Connect: Virtual Contact Center, Integrate with CRM or AWS.
 
-![](../assets/Pasted%20image%2020251004092218.png)
+![](./assets/Pasted%20image%2020251004092218.png)
 
 ## Amazon Comprehend
 
@@ -50,7 +50,7 @@ sidebar_position: 14
 
 - Fully managed service to build ML models.
 
-![](../assets/Pasted%20image%2020251004094309.png)
+![](./assets/Pasted%20image%2020251004094309.png)
 
 ## Amazon Kendra
 
