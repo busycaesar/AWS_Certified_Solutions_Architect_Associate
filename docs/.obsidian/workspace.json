@@ -171,6 +171,8 @@
   },
   "active": "4b7204905a5af0c9",
   "lastOpenFiles": [
+    "Machine Learning.md",
+    "Machine Learning/Machine Learning.md",
     "Monitoring and Audit/_category_.json",
     "Machine Learning/_category_.json",
     "Data and Analytics/_category_.json",
@@ -192,7 +194,6 @@
     "Machine Learning/Amazon Polly.md",
     "Data and Analytics/Big Data Ingestion Pipeline.md",
     "Machine Learning",
-    "Machine Learning.md",
     "assets/Pasted image 20251004085819.png",
     "Data and Analytics/Amazon Managed Streaming for Apache Kafka (Amazon MSK).md",
     "assets/Pasted image 20251004085353.png",
@@ -215,7 +216,6 @@
     "Serverless/_category_.json",
     "Serverless",
     "SampleDir copy/_category_.json",
-    "SampleDir copy",
-    "Containers/_category_.json"
+    "SampleDir copy"
   ]
 }
