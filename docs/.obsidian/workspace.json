@@ -171,6 +171,11 @@
   },
   "active": "677df81264658f3d",
   "lastOpenFiles": [
+    "AWS CLI.md",
+    "AWS CLI/_category_.json",
+    "AWS CLI/AWS CLI.md",
+    "AWS CLI",
+    "IAM/_category_.json",
     "assets/Pasted image 20251005161029.png",
     "IAM/AWS Directory Services.md",
     "IAM/AWS Control Tower.md",
@@ -188,7 +193,6 @@
     "Networking, VPC/Networking Costs.md",
     "assets/Pasted image 20251005133044.png",
     "assets/Pasted image 20251005132843.png",
-    "assets/Pasted image 20251005132631.png",
     "Networking, VPC/Egress-only Internet Gateway.md",
     "Networking, VPC/VPC.md",
     "Networking, VPC/Transit Gateway.md",
@@ -209,13 +213,9 @@
     "Networking - VPC/VPC.md",
     "Networking, VPC",
     "Networking - VPC/Security Groups and NACLs.md",
-    "Networking - VPC/Public vs Private IP (IPv4).md",
     "Networking - VPC",
     "Monitoring and Audit/_category_.json",
     "Machine Learning/_category_.json",
-    "Data and Analytics/_category_.json",
-    "Monitoring and Audit",
-    "Machine Learning",
-    "Data and Analytics"
+    "Data and Analytics/_category_.json"
   ]
 }
