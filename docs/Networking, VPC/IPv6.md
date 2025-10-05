@@ -1,5 +1,5 @@
 ---
-sidebar_position: 22
+sidebar_position: 10.5
 ---
 
 - Successor of IPv4

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IAM/AWS Control Tower.md",
+                "file": "Security and Encryption/AWS KMS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS Control Tower"
+              "title": "AWS KMS"
             }
           }
         ]
@@ -171,6 +171,25 @@
   },
   "active": "677df81264658f3d",
   "lastOpenFiles": [
+    "assets/Pasted image 20251005164828.png",
+    "Security and Encryption/Encryption 101.md",
+    "Security and Encryption/AWS KMS.md",
+    "Networking, VPC/IPv6.md",
+    "Networking, VPC/Egress-only Internet Gateway.md",
+    "Networking, VPC/AWS Network Firewall.md",
+    "Networking, VPC/AWS Site-to-Site VPN.md",
+    "Networking, VPC/Bastion Hosts.md",
+    "Networking, VPC/CIDR.md",
+    "Networking, VPC/Direct Connect.md",
+    "Networking, VPC/Internet Gateway.md",
+    "Networking, VPC/NAT.md",
+    "Networking, VPC/Networking Costs.md",
+    "Networking, VPC/Public vs Private IP.md",
+    "Networking, VPC/Security Groups and NACLs.md",
+    "Networking, VPC/Transit Gateway.md",
+    "Networking, VPC/VPC.md",
+    "IAM/AWS Control Tower.md",
+    "Security and Encryption",
     "Amazon Route 53.md",
     "Amazon S3.md",
     "AWS CLI.md",
@@ -180,7 +199,6 @@
     "IAM/_category_.json",
     "assets/Pasted image 20251005161029.png",
     "IAM/AWS Directory Services.md",
-    "IAM/AWS Control Tower.md",
     "assets/Pasted image 20251005155911.png",
     "assets/Pasted image 20251005160034.png",
     "assets/Pasted image 20251005160006.png",
@@ -189,33 +207,15 @@
     "assets/Pasted image 20251005151143.png",
     "IAM/AWS Organizations.md",
     "assets/Pasted image 20251005143501.png",
-    "Networking, VPC/AWS Network Firewall.md",
     "IAM",
     "assets/Pasted image 20251005133359.png",
-    "Networking, VPC/Networking Costs.md",
     "assets/Pasted image 20251005133044.png",
     "assets/Pasted image 20251005132843.png",
-    "Networking, VPC/Egress-only Internet Gateway.md",
-    "Networking, VPC/VPC.md",
-    "Networking, VPC/Transit Gateway.md",
-    "Networking, VPC/Security Groups and NACLs.md",
-    "Networking, VPC/Public vs Private IP.md",
-    "Networking, VPC/NAT.md",
-    "Networking, VPC/Internet Gateway.md",
-    "Networking, VPC/Direct Connect.md",
-    "Networking, VPC/CIDR.md",
-    "Networking, VPC/Bastion Hosts.md",
-    "Networking, VPC/AWS Site-to-Site VPN.md",
-    "IPv6.md",
     "Ports.md",
-    "Elastic Beanstalk.md",
-    "intro.md",
-    "Solutions Architect.md",
     "Networking, VPC/_category_.json",
     "Networking, VPC",
     "Networking - VPC",
     "Monitoring and Audit/_category_.json",
-    "Machine Learning/_category_.json",
-    "Data and Analytics/_category_.json"
+    "Machine Learning/_category_.json"
   ]
 }
