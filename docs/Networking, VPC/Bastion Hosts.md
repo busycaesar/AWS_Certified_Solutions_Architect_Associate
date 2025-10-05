@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 ---
+
 - Use Bastion Host to SSH into private EC2 instances.
 - Bastion is in public subnet which is then connected to all private subnets.
 - Bastion host security group must allow inbound on port 22 from restricted CIDR.

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 13
 ---
+
 - Protect entire Amazon VPC.
 - Rules can be centrally managed cross-account to apply to many VPCs.
 
