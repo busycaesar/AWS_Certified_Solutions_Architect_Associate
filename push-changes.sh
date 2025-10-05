@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Add changes to the stage"
+echo "📝 Adding changes to the stage..."
 git add .
 
 # Get current date and time
@@ -13,11 +13,13 @@ else
   commit_message="Add more notes - $current_date"
 fi
 
-echo "Commit changes with message: $commit_message"
+echo "💬 Committing changes with message: \"$commit_message\""
 git commit -m "$commit_message"
 
-echo "Push changes to GitHub"
+echo "🚀 Pushing changes to GitHub..."
 git push origin Master
 
-echo "Deploy changes on the website"
+echo "🌐 Deploying changes to the website..."
 npm run deploy
+
+echo "✅ All done! Changes are live 🎉"
