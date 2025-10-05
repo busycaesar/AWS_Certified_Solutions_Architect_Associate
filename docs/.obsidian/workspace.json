@@ -171,6 +171,8 @@
   },
   "active": "677df81264658f3d",
   "lastOpenFiles": [
+    "Amazon Route 53.md",
+    "Amazon S3.md",
     "AWS CLI.md",
     "AWS CLI/_category_.json",
     "AWS CLI/AWS CLI.md",
@@ -210,9 +212,7 @@
     "intro.md",
     "Solutions Architect.md",
     "Networking, VPC/_category_.json",
-    "Networking - VPC/VPC.md",
     "Networking, VPC",
-    "Networking - VPC/Security Groups and NACLs.md",
     "Networking - VPC",
     "Monitoring and Audit/_category_.json",
     "Machine Learning/_category_.json",

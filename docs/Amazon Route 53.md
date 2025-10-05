@@ -1,10 +1,10 @@
 ---
-sidebar_position: 17
+sidebar_position: 6
 ---
 
 ## How DNS Works?
 
-![](../assets/Pasted%20image%2020250920065054.png)
+![](./assets/Pasted%20image%2020250920065054.png)
 
 ## Route 53
 
@@ -55,7 +55,7 @@ sidebar_position: 17
 - Route traffic to a single resource.
 - If multiple values are returned, a random one is chosen.
 
-![](../assets/Pasted%20image%2020250920075537.png)
+![](./assets/Pasted%20image%2020250920075537.png)
 
 ### Weighted
 
@@ -66,11 +66,11 @@ sidebar_position: 17
 
 - Redirect to the resource that has the least latency close to the user.
 
-![](../assets/Pasted%20image%2020250920080449.png)
+![](./assets/Pasted%20image%2020250920080449.png)
 
 ### Failover
 
-![](../assets/Pasted%20image%2020250920082004.png)
+![](./assets/Pasted%20image%2020250920082004.png)
 
 ### Geolocation
 
@@ -81,11 +81,11 @@ sidebar_position: 17
 - Route traffic to your resources based on the geographic location of users and resources.
 - Ability to shift more traffic to resources based on the defined bias.
 
-![](../assets/Pasted%20image%2020250920083159.png)
+![](./assets/Pasted%20image%2020250920083159.png)
 
 ### IP-based Routing
 
-![](../assets/Pasted%20image%2020250920083405.png)
+![](./assets/Pasted%20image%2020250920083405.png)
 
 ### Multi-Value
 
@@ -97,4 +97,4 @@ sidebar_position: 17
 - By default Route 53 resolver answers DNS queries
 - Hybrid DNS: resolving DNS queries between VPC and your networks.
 
-![](../assets/Pasted%20image%2020250920084423.png)
+![](./assets/Pasted%20image%2020250920084423.png)

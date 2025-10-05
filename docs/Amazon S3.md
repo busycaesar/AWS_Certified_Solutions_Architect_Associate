@@ -1,5 +1,5 @@
 ---
-sidebar_position: 20
+sidebar_position: 7
 ---
 
 - Allow people to store objects (files) in buckets (directories).
@@ -39,7 +39,7 @@ sidebar_position: 20
 - Actions
 - Principal
 
-![](../assets/Pasted%20image%2020250920122633.png)
+![](./assets/Pasted%20image%2020250920122633.png)
 
 ## Versioning
 
@@ -81,7 +81,7 @@ sidebar_position: 20
 
 ## Requester Pays
 
-![](../assets/Pasted%20image%2020250920145601.png)
+![](./assets/Pasted%20image%2020250920145601.png)
 
 ## S3 Event Notifications
 
@@ -102,15 +102,15 @@ sidebar_position: 20
 
 ### Multi-Part Upload
 
-![](../assets/Pasted%20image%2020250920150924.png)
+![](./assets/Pasted%20image%2020250920150924.png)
 
 ### S3 Transfer Acceleration
 
-![](../assets/Pasted%20image%2020250920150955.png)
+![](./assets/Pasted%20image%2020250920150955.png)
 
 ### S3 Byte-Range Fetches
 
-![](../assets/Pasted%20image%2020250920151115.png)
+![](./assets/Pasted%20image%2020250920151115.png)
 
 ## S3 Batch Operation
 
@@ -119,11 +119,11 @@ sidebar_position: 20
 - Manages retries, tracks progress, sends completion notifications, generate reports, etc.
 - Use S3 inventory to get object list and use Athena to query and filter your objects.
 
-![](../assets/Pasted%20image%2020250920151457.png)
+![](./assets/Pasted%20image%2020250920151457.png)
 
 ## Storage Lens
 
-![](../assets/Pasted%20image%2020250920151620.png)
+![](./assets/Pasted%20image%2020250920151620.png)
 
 ### Metrics
 
@@ -187,7 +187,7 @@ sidebar_position: 20
 
 - Users given a pre-signed URL inherit the permissions of the user who generated the URL for GET / PUT.
 
-![](../assets/Pasted%20image%2020250924071635.png)
+![](./assets/Pasted%20image%2020250924071635.png)
 
 ## S3 Glacier Vault Lock
 
@@ -204,7 +204,7 @@ sidebar_position: 20
 
 ## Access Points
 
-![](../assets/Pasted%20image%2020250925064046.png)
+![](./assets/Pasted%20image%2020250925064046.png)
 
 ### VPC Origin
 
@@ -212,8 +212,8 @@ sidebar_position: 20
 - Create a VPC Endpoint to access the Access Point.
 - VPC Endpoint must allow access to the target bucket and Access Point.
 
-![](../assets/Pasted%20image%2020250925064448.png)
+![](./assets/Pasted%20image%2020250925064448.png)
 
 ## S3 Object Lambda
 
-![](../assets/Pasted%20image%2020250925064826.png)
+![](./assets/Pasted%20image%2020250925064826.png)
