@@ -33,3 +33,11 @@ sidebar_position: 3
 ### Architectures
 
 ![](../assets/Pasted%20image%2020251005101156.png)
+## Traffic Mirroring
+- Capture and inspect network traffic.
+- Route the traffic to security appliances that you manage.
+
+![](../assets/Pasted%20image%2020251005125329.png)
+## IPv6 in VPC
+- IPv4 cannot be disabled for VPC and subnets.
+- Can enable IPv6 to operate in dual-stack mode.
