@@ -38,3 +38,12 @@ sidebar_position: 1
 - Monitoring states of multiple other alarms.
 
 ![](../assets/Pasted%20image%2020251004122117.png)
+## CloudWatch Container Insights
+- ECS, EKS, Kubernetes on EC2, Fargate, needs agent for Kubernetes.
+- Metrics and logs
+## CloudWatch Lambda Insights
+- Detailed metrics to troubleshoot serverless applications
+## CloudWatch Contributors Insights
+- Find “Top-N” Contributors through CloudWatch Logs
+## CloudWatch Application Insights
+- Automatic dashboard to troubleshoot your application and related AWS service.
