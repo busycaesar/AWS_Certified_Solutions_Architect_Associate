@@ -11,14 +11,10 @@
             "id": "4b7204905a5af0c9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Networking - VPC/VPC.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "VPC"
+              "title": "New tab"
             }
           }
         ]
@@ -169,12 +165,21 @@
       "bases:Create new base": false
     }
   },
-  "active": "677df81264658f3d",
+  "active": "4b7204905a5af0c9",
   "lastOpenFiles": [
+    "Networking, VPC/_category_.json",
+    "Networking - VPC/VPC.md",
+    "Networking, VPC/VPC.md",
+    "Networking, VPC/Security Groups and NACLs.md",
+    "Networking, VPC/Public vs Private IP (IPv4).md",
+    "Networking, VPC/NAT.md",
+    "Networking, VPC/Internet Gateway.md",
+    "Networking, VPC/CIDR.md",
+    "Networking, VPC/Bastion Hosts.md",
+    "Networking, VPC",
     "assets/Pasted image 20251005101156.png",
     "assets/Pasted image 20251005100001.png",
     "assets/Pasted image 20251005095948.png",
-    "Networking - VPC/VPC.md",
     "assets/Pasted image 20251005095115.png",
     "assets/Pasted image 20251005092412.png",
     "Networking - VPC/Security Groups and NACLs.md",
@@ -193,7 +198,6 @@
     "Networking - VPC",
     "Monitoring and Audit/AWS Config.md",
     "Monitoring and Audit/AWS CloudTrail.md",
-    "assets/Pasted image 20251004171115.png",
     "Monitoring and Audit/Amazon EventBridge.md",
     "Monitoring and Audit/CloudWatch.md",
     "Machine Learning.md",
@@ -205,17 +209,9 @@
     "Monitoring and Audit",
     "Untitled.md",
     "Machine Learning/Amazon Personalize.md",
-    "Machine Learning/Amazon Kendra.md",
-    "Machine Learning/Amazon SageMaker AI.md",
-    "Machine Learning/Amazon Rekgnition.md",
-    "Machine Learning/Amazon Translate.md",
-    "Machine Learning/Amazon Transcribe.md",
-    "Machine Learning/Amazon Lex and Connect.md",
-    "Machine Learning/Amazon Comprehend Medical.md",
     "Machine Learning",
     "Data and Analytics",
     "Serverless/_category_.json",
-    "Serverless",
-    "SampleDir copy/_category_.json"
+    "Serverless"
   ]
 }
